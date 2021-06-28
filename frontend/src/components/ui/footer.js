@@ -48,9 +48,9 @@ const Footer = () => {
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">Website Development</a></li>
                                 <li><a href="#">Past Websites</a></li>
-                                <li><a href="#">Logo Design</a></li>
+                                <li><a href="#">Software Development</a></li>
                                 <li><a href="#">Past Logos</a></li>
-                                <li><a href="#">Digital Marketing</a></li>
+                                <li><a href="#">Logo Design</a></li>
                                 <li><a href="#">Contact</a></li>
 
                             </ul>

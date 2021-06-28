@@ -86,6 +86,150 @@ button:hover:after {
 }
 /**** End Landing Styles ****/
 
+/**** Start About Styles ****/
+
 .homeAbout {
   height: 60rem;
 }
+
+/**** End About Styles ****/
+
+
+/**** Start Contact Styles ****/
+
+.contactSection {
+  height: 40rem;
+  background-color: #366bb4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contactTitle{
+  text-transform: uppercase;
+  color:white;
+  font-weight: 800;
+}
+
+.contactSub{
+  color:white;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+
+.contact-container {
+  max-width: 400px;
+  width: 100%;
+  margin: 0 auto;
+  position: absolute;
+}
+
+#con input[type="text"],
+#con input[type="email"],
+#con input[type="tel"],
+#con input[type="url"],
+#con textarea,
+#con button[type="submit"] {
+  font: 400 12px/16px "Raleway", Helvetica, Arial, sans-serif;
+}
+
+#con{
+  width: 29rem;
+  margin-left: -2rem;
+}
+
+#con h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#con h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#con input[type="text"],
+#con input[type="email"],
+#con input[type="tel"],
+#con input[type="url"],
+#con textarea {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0);
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#con input[type="text"]:hover,
+#con input[type="email"]:hover,
+#con input[type="tel"]:hover,
+#con input[type="url"]:hover,
+#con textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border-bottom: 2px solid rgb(58, 127, 255);
+}
+
+
+#con textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+
+
+#con input:focus,
+#con textarea:focus {
+  outline: 0;
+  color:white
+}
+#con input,
+#con textarea {
+  outline: 0;
+  color:white
+}
+
+::-webkit-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+:-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+::-moz-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+:-ms-input-placeholder {
+  color: rgb(255, 255, 255);
+}
+
+.contact-container{
+  font-size: 2em;
+  position: relative;
+}
+
+.contactButton{
+  width: 29rem!important;
+}
+
+/**** End Contact Styles ****/

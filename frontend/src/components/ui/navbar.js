@@ -20,7 +20,7 @@ class Navbar extends React.Component {
         window.removeEventListener('scroll');
     }
     handleScroll = () => {
-        if (window.pageYOffset > 100) {
+        if (window.pageYOffset > 50) {
             if (!this.state.nav) {
                 this.setState({nav: true});
             }
@@ -61,8 +61,8 @@ class Navbar extends React.Component {
 
                                 <div className="nav-item dropdown-menu" aria-labelledby="navbarDropdown">
                                     <a class="dropdown-item" href="/about">Website Development</a>
-                                    <a class="dropdown-item" href="/faq">Logo Design</a>
-                                    <a class="dropdown-item" href="/resources">Digital Marketing</a>
+                                    <a class="dropdown-item" href="/faq">Software Development</a>
+                                    <a class="dropdown-item" href="/resources">Logo Design</a>
                                 </div>
                             </li>
                             <div className="nav">
