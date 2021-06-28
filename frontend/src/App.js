@@ -1,11 +1,22 @@
-import './App.css';
+import { Switch, Route } from 'react-router-dom'
+
+// Pages
+import Home from './pages/Home'
+import NotFound from './pages/NotFound.js'
+
+// Componenets
+import Navbar from './components/ui/Navbar'
+import Footer from './components/ui/Footer'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-      </header>
+      <Navbar/>
+      <Switch>
+        <Route exact path='/' exact component={Home} />
+        <Route component={NotFound}/>
+      </Switch>
+      <Footer/>
     </div>
   );
 }
