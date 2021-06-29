@@ -229,7 +229,14 @@ fieldset {
 }
 
 .contactButton{
-  width: 29rem!important;
+  width: auto!important
 }
 
-/**** End Contact Styles ****/
+@media (max-width:476px){
+  #con{
+    width: 17rem;
+  }
+  #conbtn{
+    width: 17rem!important;
+  }
+}

@@ -21,7 +21,7 @@ const ContactForm = () => {
                         <textarea name="message" placeholder="Type your message here...." tabindex="5" type="message" required></textarea>
                     </fieldset>
                     <fieldset>
-                        <div className="button contactButton">
+                        <div id="conbtn" className="button contactButton">
                             <span>SUBMIT MESSAGE</span>
                         </div>
                     </fieldset>
