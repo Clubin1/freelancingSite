@@ -1,15 +1,13 @@
 import React from 'react'
-
 import ContactSection from '../components/ContactSection'
-import ContactLanding from '../components/ContactLanding'
 
-const Contact = () => {
+const LogoService = () => {
     return (
         <div>
-            <ContactLanding/>
+            <h1> Logo Service </h1>
             <ContactSection/>
         </div>
     )
 }
 
-export default Contact
+export default LogoService

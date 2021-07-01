@@ -21,17 +21,17 @@ const Footer = () => {
                             
                             <div class="footer-social-icon list-inline social-buttons">
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="/contact">
                                     <i class="fab fa-twitter"></i>
                                 </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="/contact">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
                                 </li>
                                 <li class="list-inline-item">
-                                    <a href="#">
+                                    <a href="/contact">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                                 </li>
@@ -45,13 +45,13 @@ const Footer = () => {
                                 <h3>Links & Services</h3>
                             </div>
                             <ul className="footerList">
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">Website Development</a></li>
-                                <li><a href="#">Past Websites</a></li>
-                                <li><a href="#">Software Development</a></li>
-                                <li><a href="#">Past Logos</a></li>
-                                <li><a href="#">Logo Design</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a href="/home">Home</a></li>
+                                <li><a href="/development/website">Website Development</a></li>
+                                <li><a href="/works">Past Websites</a></li>
+                                <li><a href="/development/software">Software Development</a></li>
+                                <li><a href="/works">Past Logos</a></li>
+                                <li><a href="/development/logo">Logo Design</a></li>
+                                <li><a href="/contact">Contact</a></li>
 
                             </ul>
                         </div>

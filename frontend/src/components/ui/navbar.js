@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
-import {Container, Nav} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import NavLogo from '../../Assets/img/nerologo.png'
 
 import '../../Assets/Styles/Styles.css'
@@ -60,14 +60,14 @@ class Navbar extends React.Component {
                                 </a>
 
                                 <div className="nav-item dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="/about">Website Development</a>
-                                    <a class="dropdown-item" href="/faq">Software Development</a>
-                                    <a class="dropdown-item" href="/resources">Logo Design</a>
+                                    <a class="dropdown-item" href="/development/website">Website Development</a>
+                                    <a class="dropdown-item" href="/development/software">Software Development</a>
+                                    <a class="dropdown-item" href="/development/logo">Logo Design</a>
                                 </div>
                             </li>
                             <div className="nav">
                                 <li className="nav-item">
-                                    <Link to="/membership" className="nav-link">Our works</Link>
+                                    <Link to="/works" className="nav-link">Our works</Link>
                                 </li>
                             </div>
                             <li className="nav-item">
@@ -78,7 +78,7 @@ class Navbar extends React.Component {
                                 icon={faPhone}/>
 
                             <li className="nav-item inline">
-                                <Link to="#" className="nav-link">704-712-3369</Link>
+                                <Link to="/contact" className="nav-link">704-712-3369</Link>
                             </li>
                         </ul>
                     </div>

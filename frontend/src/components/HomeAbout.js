@@ -8,7 +8,7 @@ const HomeAbout = () => {
     <div className="homeAbout">
         <div id="rowThing" className="row row2">
             <div className="col">
-                <img className="aboutImage" src={aboutImage}/>
+                <img alt="Team Members" className="aboutImage" src={aboutImage}/>
             </div>
             <div className="col">
                 <h5>Our team has been in the industry for years!
@@ -40,7 +40,7 @@ const HomeAbout = () => {
             </div>
             <div className="col">
                 <div className='colorDiv'>
-                    <img className="aboutImage color" src="https://freepngimg.com/thumb/web_design/12-2-web-design-png-images.png"/>
+                    <img alt="WebDev" className="aboutImage color" src="https://freepngimg.com/thumb/web_design/12-2-web-design-png-images.png"/>
                 </div>
             </div>
         </div>
